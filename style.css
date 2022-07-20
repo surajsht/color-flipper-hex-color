@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.color {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.current-color {
+  font-weight: 600;
+}
+
+.click {
+  padding: 1rem 3rem;
+  font-size: 2rem;
+}
